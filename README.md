@@ -35,7 +35,7 @@ This project provides an API for classifying product descriptions into predefine
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/llm-endpoint.git
+    git clone https://github.com/lamb-russell/llm-endpoint.git
     cd llm-endpoint
     ```
 
