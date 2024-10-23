@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Harness for Python API</title>
+</head>
+<body>
+    <h1>Python API Test Harness</h1>
+
+    <label for="description">Description:</label>
+    <input type="text" id="description" placeholder="Product description">
+    <br><br>
+
+    <label for="categories">Categories (comma-separated):</label>
+    <input type="text" id="categories" placeholder="Snacks, Drinks, Electronics">
+    <br><br>
+
+    <label for="model_name">Model Name:</label>
+    <input type="text" id="model_name" placeholder="llama3.1" value="llama3.1">
+    <br><br>
+
+    <button id="submitBtn">Submit</button>
+
+    <h2>Response from API:</h2>
+    <pre id="apiResponse">No response yet...</pre>
+
+    <script src="app.js"></script>
+</body>
+</html>
